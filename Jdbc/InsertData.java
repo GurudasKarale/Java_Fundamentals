@@ -15,7 +15,7 @@ public class InsertData {
         String query1="insert into employee values(?,?)";
         try{
             Class.forName("org.postgresql.Driver");
-            cn= DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres","postgres","digital8956");
+            cn= DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres","postgres","");
             //Statement st=cn.createStatement();
             //int count=st.executeUpdate(query);
 

@@ -13,7 +13,7 @@ public class fetchAllData {
         String query="select * from employee";
         try{
             Class.forName("org.postgresql.Driver");
-            cn= DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres","postgres","digital8956");
+            cn= DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres","postgres","");
             Statement st=cn.createStatement();
             ResultSet rs=st.executeQuery(query);
 

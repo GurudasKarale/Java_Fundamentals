@@ -12,7 +12,7 @@ public class jdbcConnectTest {
        try{
 
            Class.forName("org.postgresql.Driver");
-           connection= DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres","postgres","digital8956");
+           connection= DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres","postgres","");
            if(connection!=null){
                System.out.println("Connection established");
            }else{
